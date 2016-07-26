@@ -1,0 +1,25 @@
+{
+  "name": "purplebooth/github-commit-lint",
+  "description": "Lint git commits and update their status",
+  "type": "project",
+  "require": {
+    "knplabs/github-api": "^1.7",
+    "php": "^7.0.0"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Billie Thompson",
+      "email": "billie@purplebooth.co.uk"
+    }
+  ],
+  "require-dev": {
+    "phpspec/phpspec": "^3.0",
+    "squizlabs/php_codesniffer": "*"
+  },
+  "autoload": {
+    "psr-0": {
+      "PurpleBooth\\GitGitHubLint\\": "src/"
+    }
+  }
+}
